@@ -1,4 +1,4 @@
-# csv-search-upload
+# Khathuram - csv-search-upload
 
 * Repository for educational purposes without active maintenance.
 * Fantasy name generated with [donjon](https://donjon.bin.sh/fantasy/name/#type=set)
