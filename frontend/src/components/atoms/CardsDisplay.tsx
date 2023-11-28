@@ -27,12 +27,14 @@ class CardsDisplay extends Component<CardsDisplayProps, {}> {
 
     return (
       <>
-        <h3 className='underline'>Displayed cards</h3>
-        <ul className="csv-cards-list" style={{ listStyle: 'none' }}>
-          {displayedCards.map((card, index) => (
-            <CSVCard key={index} card={card} highlightTerm={filterTerm} />
-          ))}
-        </ul>
+        <div>
+          <h3 className='underline'>Displayed cards</h3>
+          <ul className="csv-cards-list" style={{ listStyle: 'none' }}>
+            {displayedCards.map((card, index) => (
+              <CSVCard key={index} card={card} highlightTerm={filterTerm} />
+            ))}
+          </ul>
+        </div>
       </>
     )
   }

@@ -88,7 +88,7 @@ class FileUploader extends Component<FileUploaderProps, FileUploaderState> {
 
   render (): JSX.Element {
     return (
-      <div>
+      <div title="Use me to upload the CSV files">
         <h3 className='underline'>Upload</h3>
 
         <div

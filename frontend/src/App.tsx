@@ -64,9 +64,9 @@ class App extends Component<AppProps, AppState> {
 
         <header>
           <br />
-          <img src="favicon.ico" alt="logo" />
-          <h1 className='underline' >App</h1>
-          <p>Full-stack test: CSV Upload & Search</p>
+          <img src="favicon.ico" alt="logo" title="I AM KHATHURAM!!! "/>
+          <h1 className='underline' >The Adventurers of Khathuram</h1>
+          <p>Challenge: CSV Upload & Search</p>
         </header>
 
         <main>
@@ -79,7 +79,11 @@ class App extends Component<AppProps, AppState> {
         </main>
 
         <footer>
-          <p>Copyleft © 2023 - <a href="https://github.com/andersonbosa"> Anderson Bosa</a></p>
+          <p>
+            <a href="https://github.com/andersonbosa">
+              Copyleft © 2023 - Anderson Bosa
+            </a>
+          </p>
         </footer>
       </>
     )

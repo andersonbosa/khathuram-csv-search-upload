@@ -62,7 +62,7 @@ class SearchBar extends Component<SearchBarProps, SearchBarState> {
 
   render (): JSX.Element {
     return (
-      <div id='search-bar'>
+      <div id='search-bar' title="Use me to look between the files uploaded to the server.">
         <h3 className='underline'>Search</h3>
         <input
           type="text"
