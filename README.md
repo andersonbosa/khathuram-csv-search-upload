@@ -2,11 +2,16 @@
 
 > Repository for educational purposes without active maintenance.
 
-* Fantasy name generated with https://donjon.bin.sh/fantasy/name/#type=set
+* Fantasy name generated with [donjon](https://donjon.bin.sh/fantasy/name/#type=set)
 
-## Demos
+## Demo
 
-### Frontend
+- Frontend
+- Backend
 
+## Prints
 
-### Backend
+|                                                                             |                                                                            |
+| :-------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+|                        Home ![Home](docs/print1.png)                        |            Upload CSV file ![Upload CSV file](docs/print2.png)             |
+| Search with partial results ![Search with partial results](docs/print3.png) | Search with specific results![Search with specific results](docs/print4.png) |
