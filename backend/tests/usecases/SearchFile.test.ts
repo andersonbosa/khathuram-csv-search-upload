@@ -22,7 +22,7 @@ describe('searchAllFiles usecase', () => {
 
       /* Search */
       const searchUsecase = new SearchAllFiles(repository)
-      const results = await searchUsecase.execute('jane')
+      const results = await searchUsecase.execute('lucas')
 
       expect(results.length).toEqual(3)
     })
